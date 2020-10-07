@@ -33,14 +33,14 @@ align-items: center;}
 .day{
     margin-top: 1rem;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
     color:black;
     text-decoration: underline black ;
 }
 .dataBox{
     border: 1px solid grey;
     background-color: white;
-    margin: 1rem;
+    margin: 2rem;
     padding: auto;
     height: 230px;
     background: fade-out(grey, 0.35);
@@ -71,10 +71,11 @@ align-items: center;}
     align-items: center;
 }
 .row{
-    margin-left:10rem ;
-    margin-right: 10rem;
+    margin-left:5rem ;
+    margin-right: 5rem;
+
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .dataItem{
         font-size: large;
         font-weight: 500;
