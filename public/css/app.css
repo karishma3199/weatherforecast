@@ -1,0 +1,61 @@
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  margin-bottom: 10px;
+  background: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  text-align: center;
+}
+input::placeholder {
+  color: gray;
+  opacity: 1;
+}
+input:focus {
+  outline: 0!important;
+}
+
+button {
+  height: 2.5rem;
+  margin:auto ;
+  background:#114665;
+  border: hidden;
+  color: white;
+  cursor: pointer;
+  border-radius: 3rem !important;
+}
+button:focus{
+  outline: 0 !important;
+}
+button:not(.disabled):hover, button:not(.disabled):focus {
+  outline: 0 !important;
+  border-radius: 3rem;
+  border: 2px solid lightblue;
+
+}
+button.disabled {
+  position: relative;
+  background: #ccc;
+  height: 2.5rem;
+  border-radius: 3rem;
+  cursor: default;
+}
+
+
+@media screen and (max-width:600px){
+ 
+input {
+  width: 70%;
+  font-size: 1rem;
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+  
+} 
+button {
+  margin-top: 1rem !important;
+}
+}

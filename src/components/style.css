@@ -1,0 +1,109 @@
+body{
+    background-attachment: fixed;
+    background-image: url('./back2.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: block;
+    position: absolute; 
+    overflow-y: scroll;
+  
+}
+.itemCenter{
+    text-align: center;
+justify-content: center;
+align-items: center;}
+.appHeading{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:#212529;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.cityName{
+    font-size: 30px;
+    text-decoration: underline;
+    color:black; 
+    font-weight: 600;
+    text-align: center;
+    padding-top:2rem ;
+    padding-bottom: 2rem;
+}
+.day{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 22px;
+    color:black;
+    text-decoration: underline black ;
+}
+.dataBox{
+    border: 1px solid grey;
+    background-color: white;
+    margin: 1rem;
+    padding: auto;
+    height: 230px;
+    background: fade-out(grey, 0.35);
+    border-radius: 10px;
+    box-shadow: darkcyan;
+}
+.date{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: large;
+    color:black;
+}
+.description{
+    font-weight: 600;
+    font-size: 22px;
+
+}
+.dataItem{
+    margin-bottom: 4px;
+    line-height: 1.1;
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+}
+.weatherImg{
+    width: 70px;
+    text-align: center;
+    align-items: center;
+}
+.row{
+    margin-left:10rem ;
+    margin-right: 10rem;
+}
+@media screen and (max-width:600px){
+    .dataItem{
+        font-size: large;
+        font-weight: 500;
+        color: black;
+    }
+    .dataBox{
+        width: 150px;
+        padding: auto;
+        height: 250px;
+        background: fade-out(grey, 0.35);
+        margin-left:auto;
+        margin-right:auto;
+    }
+     
+    .appHeading{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color:#212529;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+    }
+    .weatherImg{
+        width: 80px;
+        text-align: center;
+        align-items: center;
+    }
+    .row{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+}
